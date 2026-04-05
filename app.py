@@ -92,7 +92,7 @@ def image_to_svg_ocr(img_path, out_path):
 
 @app.route("/", methods=["GET"])
 def health():
-    return jsonify({"status": "ok", "service": "vectorizer-api"})
+    return jsonify({"status": "ok", "service": "svgconverter-api"})
 
 
 @app.route("/convert", methods=["POST"])
